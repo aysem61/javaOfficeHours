@@ -23,7 +23,7 @@ public class Question_1 {
 		
 		double usageYEarly=tea*sugar*2.7*365/1000;
 		
-		double usageFourtly=usageYearly*40;
+		//double usageFourtly=usageYearly*40;
 		
 		//float usageYearlyFlt=(float) usageYearly;
 		
@@ -32,8 +32,8 @@ public class Question_1 {
 		if(sugar==0) {
 			System.out.println("Good Job,less sugar more health");
 		}else {
-			System.out.println("Your yearly usage is : " + usageYearly + "kg");
-			System.out.println("Your usage for 40 years is :" +usageFourty +"kg");
+			//System.out.println("Your yearly usage is : " + usageYearly + "kg");
+			//System.out.println("Your usage for 40 years is :" +usageFourty +"kg");
 		}
 
 	}
